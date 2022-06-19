@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox id="MainMenuView" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="thedrake.ui.Controller">
+   <children>
+      <VBox alignment="BOTTOM_CENTER" spacing="35.0">
+         <children>
+            <Label id="MainMenuTheDrakeSign" styleClass="MainMenuIcons" text="The Drake" textAlignment="CENTER">
+               <VBox.margin>
+                  <Insets bottom="35.0" />
+               </VBox.margin>
+            </Label>
+            <Button fx:id="mainMenuPlayAgainstAnotherPlayerButton" mnemonicParsing="false" onAction="#onMouseClickPlayAgainstAnotherPlayerButton" text="Hra dvou hráčů">
+               <styleClass>
+                  <String fx:value="MainMenuIcons" />
+                  <String fx:value="MainMenuButton" />
+               </styleClass></Button>
+            <Button mnemonicParsing="false" text="Hra proti počítači">
+               <styleClass>
+                  <String fx:value="MainMenuIcons" />
+                  <String fx:value="MainMenuButton" />
+               </styleClass></Button>
+            <Button mnemonicParsing="false" text="Hra po internetu">
+               <styleClass>
+                  <String fx:value="MainMenuIcons" />
+                  <String fx:value="MainMenuButton" />
+               </styleClass></Button>
+            <Button fx:id="mainMenuExitButton" mnemonicParsing="false" onAction="#onMouseClickExitButton" text="Konec">
+               <styleClass>
+                  <String fx:value="MainMenuIcons" />
+                  <String fx:value="MainMenuButton" />
+               </styleClass></Button>
+         </children>
+         <padding>
+            <Insets bottom="120.0" left="150.0" />
+         </padding>
+      </VBox>
+   </children>
+</HBox>

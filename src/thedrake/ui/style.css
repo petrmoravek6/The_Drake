@@ -1,0 +1,110 @@
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+
+#MainMenuView{
+    -fx-background-image: url('../../img/MainMenuBackground.jpg');
+    -fx-background-repeat: stretch;
+}
+
+#GameView {
+    -fx-background-image: url('../../img/InGameBackground.jpg');
+    -fx-background-repeat: stretch;
+}
+
+Label {
+    -fx-font-family: 'Cinzel Decorative', cursive;
+}
+
+Button {
+    -fx-font-family: 'Cinzel Decorative', cursive;
+}
+
+.MainMenuButton {
+    -fx-font-size: 24;
+    -fx-background-color: transparent;
+    -fx-text-fill: #b4b4b4;
+}
+
+.MainMenuButton:hover {
+    -fx-text-fill: #f1f1f1;
+}
+
+#MainMenuTheDrakeSign {
+    -fx-font-size: 85;
+    -fx-text-fill: #D9CFAF;
+}
+
+#CapturedLabelBlue {
+    -fx-background-color: #00bfff;
+    -fx-border-color: #544e41;
+    -fx-font-size: 17;
+    -fx-alignment: center;
+}
+#CapturedLabelOrange {
+    -fx-background-color: #ff7f50;
+    -fx-border-color: #544e41;
+    -fx-font-size: 17;
+    -fx-alignment: center;
+}
+
+.PlayerOnTurn {
+    -fx-font-weight: bold;
+    -fx-font-size: 22;
+    -fx-border-width: 4;
+    -fx-alignment: center;
+}
+
+#PlayerOnTurnBlue {
+    -fx-text-fill: rgba(0, 191, 255, 0.81);
+    -fx-border-color: rgba(0, 191, 255, 0.81);
+}
+#PlayerOnTurnOrange {
+    -fx-text-fill: rgba(255, 127, 80, 0.83);
+    -fx-border-color: rgba(255, 127, 80, 0.83);
+}
+
+#ExitButton {
+    -fx-background-image: url('../../img/ExitButton.png');
+    -fx-background-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+#ExitButton:hover {
+    -fx-background-image: url('../../img/ExitButtonHover.png');
+    -fx-background-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+#GameOverPopup {
+    -fx-background-image: url('../../img/PergamenPaper.png');
+    -fx-background-color: transparent;
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+#GameOverLabel {
+    -fx-font-size: 55;
+    -fx-text-fill: #181818;
+    -fx-font-weight: bold;
+}
+#ResultLabel {
+    -fx-font-size: 26;
+    -fx-font-weight: bold;
+}
+#EndMessageLabel {
+    -fx-font-weight: bold;
+    -fx-font-size: 10;
+}
+.GameOverScreenButtons {
+    -fx-background-color: transparent;
+    -fx-font-size: 21;
+}
+.GameOverScreenButtons:hover {
+    -fx-text-fill: rgba(0, 0, 0, 0.97);
+}
